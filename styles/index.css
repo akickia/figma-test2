@@ -1,20 +1,112 @@
+/*styling för hela sidan*/
 body {
     font-family: 'Poppins', sans-serif;
     max-width: 1126px;
     margin: auto
 }
 
+/*styling för alla sektioner*/
 .section {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    margin: 20px 0;
 }
 
-.section__text {
+/*styling för innehåll i sektioner*/
+.section__content {
     display: flex; 
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+/*styling för alla knappar*/
 .section__btn {
+    color: white;
+    font-weight: 600;
     background-color: #FF9900;
-    padding: 5px 10px;
+    padding: 10px 22px;
+}
+
+/*styling för header*/
+.section__header {
+    justify-content: space-between;
+    max-height: 78px;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section__nav--meny {
+    display: inline;
+    margin: 12px;
+    position: relative;
+    left: 125px;
+    font-size: 14px;
+}
+
+.section__btn--header1 {
+    color: #173A56;
+    background-color: white;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 14px 24px;
+    position: relative;
+    right: 10px;
+}
+
+.section__btn--header2 {
+    border: none;
+    border-radius: 4px;
+    padding: 14px 24px
+}
+
+/*styling för section 1*/
+
+.section__content {
+    width: 331px
+}
+h1 {
+    font-size: 44px;
+}
+
+.section__text--one {
+    font-size: 18px;
+}
+
+.section__btn--main1 {
+    height: 53px;
+    width: 175px;
+    opacity: 0.75;
+    border: none;
+    border-radius: 4%;
+}
+
+.section__btn--main2 {
+    color: #FF9900;
+    background-color: #FFFFFF;
+    border: none;
+    
+}
+.section__btn--image {
+    margin-right: 5px;
+}
+
+.section__image--one {
+    display: flex;
+    max-height: 605px;
+    max-width: 496px;
+}
+
+/*styling för section 2*/
+
+
+.section--two {
+    display: block;
+    text-align: center;
+}
+.section__boxes {
+    display: flex;
+
 }
